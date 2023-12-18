@@ -1,0 +1,22 @@
+.hacker{
+    color: green;
+}
+
+body{
+    background-color: black;
+}
+
+.hacker {
+    display:flex;
+    margin-top: 20vh;
+    /* align-items: center; */
+    justify-content: center;
+    animation: blink 1s infinite;
+    
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
